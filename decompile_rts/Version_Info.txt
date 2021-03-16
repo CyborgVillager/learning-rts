@@ -1,0 +1,29 @@
+ Key Legend:
+                -- = current version
+                -wor: = working on this ver
+                 <-x_x-> = bug
+                 |x_x| = bug fixed
+                 <-o_o-> = design issue
+                 |o_o| = design issue fixed
+
+
+                     ~Updating to repo~
+               | --------------------------- |
+               | v# : Short Version Title    |
+               | Description: v# description |
+               | --------------------------- |
+
+----------------------------    ----------------------------   ------------------------- ------------------------------
+--v0 Learning RTS: Learning on making rts using python/pygame special thanks to jellyberg
+                    Forked Respo: https://github.com/CyborgVillager/Aedificus---Fathers_of_Rome
+                    OG Respo: https://github.com/jellyberg/Aedificus---Fathers_of_Rome
+
+                    will be decompiling / re-inputing to learn the in's & outs, this will be an massive improvement from
+                    Gran-Command https://github.com/CyborgVillager/Grand-Command. Once the decompile is complete will reboot
+                    Grant Command into v3
+
+
+
+
+
+
