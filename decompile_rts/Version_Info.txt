@@ -19,12 +19,13 @@ v0 Learning RTS: Learning on making rts using python/pygame special thanks to je
                     OG Respo: https://github.com/jellyberg/Aedificus---Fathers_of_Rome
 
                     will be decompiling / re-inputing to learn the in's & outs, this will be an massive improvement from
-                    Gran-Command https://github.com/CyborgVillager/Grand-Command. Once the decompile is complete will reboot
-                    Grant Command into v3
+                    Grand-Command https://github.com/CyborgVillager/Grand-Command. Once the decompile is complete will reboot
+                    Grand Command into v3
 
 --v1 RTS Info: Additional Info from Margaruga for RTS : https://github.com/Margaruga/Games/tree/master/LittleRTSPythonPygame
                     Updated info for v0 in regarding to comments & dissection. Once that is completed will look at LittleRTS for
                     extra info, digging its concept will see what I can do to improve upon these two for Grand Command
+                    * Updated Text info for v0
 
 
 
