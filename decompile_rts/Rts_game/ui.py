@@ -428,7 +428,7 @@ class BottomBar:
 			self.cellBackgrounds.append(pygame.transform.rotate(flippedBgImg, i))
 		self.cellHighlight = pygame.image.load('assets/ui/bottomBar/cellHighlight.png').convert_alpha()
 		self.cellClick     = pygame.image.load('assets/ui/bottomBar/cellClick.png').convert_alpha()
-		self.lockImg       = pygame.image.load('assets/ui/padlock.png').convert_alpha()
+
 
 		self.genRects()
 		self.genBackgroundImg()
@@ -485,11 +485,11 @@ class BottomBar:
 			imgRect.center = self.localRects[i].center
 			surf.blit(img, imgRect)
 
-		lockRect = self.lockImg.get_rect()
-		for i in range(len(my.BUILDINGNAMES)):
-			if my.BUILDINGNAMES[i] not in my.unlockedBuildings:
-				lockRect.center = self.localRects[i].center
-				surf.blit(self.lockImg, lockRect)
+# Removed lockRect = self.lockImg.get_rect()
+		# 		for i in range(len(my.BUILDINGNAMES)):
+		# 			if my.BUILDINGNAMES[i] not in my.unlockedBuildings:
+		# 				lockRect.center = self.localRects[i].center
+		# 				surf.blit(self.lockImg, lockRect)
 
 		img = pygame.image.load('assets/ui/bomb.png')
 		imgRect = img.get_rect()

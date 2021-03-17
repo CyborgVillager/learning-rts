@@ -511,7 +511,7 @@ class Human(Mob):
 		if self.intention == 'working':
 			self.thought = 'working'
 		if self.thought is None:
-			thoughtText = 'chillaxing'
+			thoughtText = 'relaxing'
 		else:
 			thoughtText = self.thought
 		if self.thoughtIsUrgent:
@@ -536,9 +536,9 @@ class Human(Mob):
 			self.stopJob()
 			self.destinationFoodSite = site
 		else:
-			ui.StatusText("Your citizens can't find anywhere to eat. Build more orchards", self.coords)
+			ui.StatusText("Your citizens can't find anywhere to eat. Produce food or risk starvation!", self.coords)
 
-
+# Target Location
 	def findTarget(self, targetGroup, maxDistance):
 		"""Set one of the nearest mobs in targetGroup within maxDistance to self.target and go to their position"""
 		nearestTargets = my.map.findNearestBuildings(self.coords, targetGroup)
@@ -589,7 +589,6 @@ class Human(Mob):
 					destGroup = theItem.destinationGroup
 					if destGroup == None: # item shouldnt be taken to a building by a serf (eg swords)
 						continue
-
 					if not theItem.reserved or theItem.reserved == self:
 						if self.isStorageSpace(destGroup, theItem.quantity):
 							if theItem != self.lastDestItem and self.lastDestItem:

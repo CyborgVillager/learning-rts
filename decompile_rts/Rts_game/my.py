@@ -47,7 +47,7 @@ HALFWINDOWHEIGHT = int(WINDOWHEIGHT / 2)
 THIRDWINDOWWIDTH = int(WINDOWWIDTH / 3)
 THIRDWINDOWHEIGHT = int(WINDOWHEIGHT / 3)
 
-
+# Map Square Cell Size
 CELLSIZE = 20
 HALFCELL = int(CELLSIZE / 2)
 MAPXCELLS = 150
@@ -105,7 +105,7 @@ DAMAGEMARGIN = 10.0 # damage may be increased or decreased by up to this % of da
 BUBBLEMARGIN = 3
 HEALTHBARSHOWTIME = 200
 
-STARTUNLOCKEDBUILDINGS = ['hut', 'shed', 'orchard', 'fishing boat', 'fish mongers', 'blacksmith']
+STARTUNLOCKEDBUILDINGS = ['hut', 'shed', 'orchard', 'fishing boat', 'fish mongers', 'pool','blacksmith']
 
 
 

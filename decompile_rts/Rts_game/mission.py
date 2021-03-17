@@ -13,8 +13,7 @@ class MoveCamera:
 		my.defaultHungerLossRate = my.HUNGERLOSSRATE
 
 	def getProgress(self):
-		if 'blacksmith' in my.unlockedBuildings:
-			my.unlockedBuildings.remove('blacksmith')
+
 
 		my.HUNGERLOSSRATE = 0 # make the game a bit more forgiving for new players
 		my.allowFloods = False
@@ -42,7 +41,7 @@ class RecruitOccupation:
 
 		if self.occupation == 'jobless': return 0
 
-		occupationNameOrder = [None, 'builder', 'woodcutter', 'miner', 'fisherman', 'blacksmith']
+		occupationNameOrder = [None, 'builder', 'woodcutter', 'miner', 'fisherman', 'blacksmith','soldier']
 		isSecondColumn = occupationNameOrder.index(self.occupation) >= 3
 		yValue = occupationNameOrder.index(self.occupation) % 3
 		tip = ui.UItip((0, 0), 'Click the + button next to the %s' %(self.occupation))

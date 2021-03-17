@@ -476,6 +476,7 @@ class Shed(StorageBuilding):
 
 
 
+
 class Orchard(FoodBuilding):
 	"""Basic food place"""
 	my.orchardHasBeenPlaced = False
@@ -551,7 +552,7 @@ class FishMongers(FoodBuilding):
 
 	def storeResource(self, resource, quantity):
 		"""Add Fish().quantity to self.fish."""
-		assert resource == 'fish', "Serf is storing item other than fish in a fishmonger. Stupid serf."
+		assert resource == 'fish', "Serf is storing item other than fish in a fishmonger."
 		self.totalStored += quantity
 
 

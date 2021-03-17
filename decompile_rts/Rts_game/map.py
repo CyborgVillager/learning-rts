@@ -203,7 +203,7 @@ class Camera:
 		self.targetFocus = None
 
 		self.xVel, self.yVel = 0, 0
-		self.boundRect = {'top':    pygame.Rect((0,0), (my.WINDOWWIDTH, my.MOUSESCROLL)), # for mouse camera movement
+		self.boundRect = {'top': pygame.Rect((0,0), (my.WINDOWWIDTH, my.MOUSESCROLL)), # for mouse camera movement
 				  'right':  pygame.Rect((my.WINDOWWIDTH - my.MOUSESCROLL,0), (my.MOUSESCROLL, my.WINDOWHEIGHT)),
 				  'bottom': pygame.Rect((0, my.WINDOWHEIGHT - my.MOUSESCROLL), (my.WINDOWWIDTH, my.MOUSESCROLL)),
 				  'left':   pygame.Rect((0, 0), (my.MOUSESCROLL, my.WINDOWHEIGHT))}
