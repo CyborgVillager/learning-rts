@@ -30,7 +30,14 @@ v1 RTS Info: Additional Info from Margaruga for RTS : https://github.com/Margaru
 v2 Dissection: New Folder rts_build, modified Rts_game, removed locked buildings. Will probably revert the OG Rts_game for a better
                         reference once the time is needed. For now studying the in's & outs of it
 
---v3 Clone: Testing cloning onto new sys
+v3 Clone: Testing cloning onto new sys
+
+
+v4 Screen Resize:    - Enabled Window Screen resize @ my.py @ line 37
+          - Made a button for options @ rtsengine.py will soon add the following:
+            * Enable user choice for full/windowed screen
+--v5 Back to the BASICS: - Will dive further onto using pygamed using coderslegacy.com/python/python-pygame-tutorial/ to learn more,
+                            new info will be posted @ Games-master/Learning
 
 
 

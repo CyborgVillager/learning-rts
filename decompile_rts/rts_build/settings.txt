@@ -1,3 +1,0 @@
-This is the settings file for Aedificus. Change any of the below values to True to enable that option.
-
-windowed_mode = true
