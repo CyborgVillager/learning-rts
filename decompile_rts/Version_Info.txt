@@ -27,8 +27,10 @@ v1 RTS Info: Additional Info from Margaruga for RTS : https://github.com/Margaru
                     extra info, digging its concept will see what I can do to improve upon these two for Grand Command
                     * Updated Text info for v0
 
--wor v2 Dissection: New Folder rts_build, modified Rts_game, removed locked buildings. Will probably revert the OG Rts_game for a better
+v2 Dissection: New Folder rts_build, modified Rts_game, removed locked buildings. Will probably revert the OG Rts_game for a better
                         reference once the time is needed. For now studying the in's & outs of it
+
+--v3 Clone: Testing cloning onto new sys
 
 
 
